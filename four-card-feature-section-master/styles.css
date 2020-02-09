@@ -1,0 +1,56 @@
+body {
+  font-size: 15px;
+}
+
+
+.heading {
+   text-align: center;
+}
+
+
+.feature-card {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 20rem;
+    height: 12rem;
+    box-shadow: 0px 29px 52px -22px rgba(65,66,73,1);
+    margin: 3% auto;
+    padding: 2% 3%;
+
+}
+
+.feature-card-top-red {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.feature-card-top-cyan {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.feature-card-top-orange {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.feature-card-top-blue {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.header-line {
+  height: 1px;
+  background-color: blue;
+  border-radius: 25%;
+}
+
+.img {
+  float: right;
+  width: 20%;
+  margin-top: 10%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
