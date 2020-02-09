@@ -7,24 +7,38 @@ body {
    text-align: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  
+}
+
 
 .feature-card {
-    border: 1px solid black;
+    border: 1px solid hsl(0, 0%, 98%);
     border-radius: 5px;
     width: 20rem;
     height: 12rem;
-    box-shadow: 0px 29px 52px -22px rgba(65,66,73,1);
+    box-shadow: 0px 29px 52px -22px hsl(229, 6%, 66%);
     margin: 3% auto;
     padding: 2% 3%;
+
+}
+.flex-column {
+  flex-direction: column;
+  ;
 
 }
 
 .feature-card-top-red {
   border-top: 4px solid hsl(0, 78%, 62%);
+  margin-bottom: 10%;
 }
 
 .feature-card-top-cyan {
   border-top: 4px solid hsl(180, 62%, 55%);
+  align-self: center;
 }
 
 .feature-card-top-orange {
@@ -33,6 +47,7 @@ body {
 
 .feature-card-top-blue {
   border-top: 4px solid hsl(212, 86%, 64%);
+  align-self: center
 }
 
 .header-line {
