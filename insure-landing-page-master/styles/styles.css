@@ -47,11 +47,42 @@ table {
 	border-spacing: 0;
 }
 
+/* VARIABLES */
 
-/* My styling */
+:root {
+    --primary-violet: hsl(256, 26%, 20%);
+    --primary-gray: hsl(216, 30%, 68%);
+
+
+    --neutral-violet: hsl(270, 9%, 17%);
+    --neutral-gray: hsl(273, 4%, 51%);
+    --neutral-light-gray: hsl(0, 0%, 98%);
+
+}
+
+
+/* GENERAL */
+
+body {
+    color: var(--neutral-gray);
+}
+
+body, .btn {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+
+/* NAV BAR */
 
 .nav {
-    padding: 2rem;
+    padding: 0.5rem 1rem;
 }
 
 .nav ul {
@@ -60,12 +91,31 @@ table {
 }
 
 .nav li {
-    display: inline-block;
     float: right;
-    margin: auto;
+    margin: 0.75rem;
   
+}
+
+.nav .btn {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: -0.5rem;
 }
 
 .logo-img {
     margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+
+/* HEADER */
+
+.header {
+    background-color: var(--primary-violet);
+    font-weight: 400;
+    color: white;
+}
+
+.header h1 {
+    font-size: 4rem;
 }
