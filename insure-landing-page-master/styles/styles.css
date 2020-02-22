@@ -85,22 +85,24 @@ h1,h2,h3,h4,h5,h6 {
 /* NAV BAR */
 
 .nav {
-    padding: 0.5rem 1rem;
     position: absolute;
     z-index: 100;
     height: 10%;
     width: 100%;
     background-color: white;
+    padding-top: 1em;
 }
 
 .nav ul {
     display: block;
     overflow: hidden;
+    margin-right: 10em;
+
 }
 
 .nav li {
     float: right;
-    margin: 0.75rem;
+    margin: 1em 0.75em;
   
 }
 
