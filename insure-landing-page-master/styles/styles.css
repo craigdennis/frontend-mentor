@@ -79,6 +79,24 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 400;
 }
 
+h1 {
+    font-size: 4rem;
+}
+
+hr {
+    width: 8em;
+    left: 5em;
+}
+
+button {
+        color:white;
+        padding: 1em 3em;
+        border: white;
+        border: 2px solid white;
+        background-color: var(--primary-violet);
+    
+}
+
 
 
 
@@ -139,15 +157,12 @@ h1,h2,h3,h4,h5,h6 {
 
 .header hr {
     position: absolute;
-    color: red;
-    width: 8em;
     float: left;
     top: 10em;
-    left: 5em;
+    
 }
 
 .header h1 {
-    font-size: 4rem;
     position: absolute;
     top: 3.5em;
     
@@ -189,4 +204,83 @@ h1,h2,h3,h4,h5,h6 {
     position: absolute;
     width: 10em;
     top: 30em;
+}
+
+
+/* INFO */
+
+.info {
+    margin-top: 20em;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.info h1 {
+    position: absolute;
+    left: 1.2em;
+    top: 14.7em;
+    color: black;
+}
+
+.info hr {
+    position: absolute; 
+    top: 55em;
+
+
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8em;
+    margin: 0 3em;
+}
+
+.info-card {
+   margin-top: 10em;
+   max-width: 25%;  
+
+}
+
+.info img {
+    width: 4.5em;
+    margin-bottom: 2em;
+}
+
+.info h2 {
+    margin-bottom: 1.5em;
+}
+
+
+/* HOW WE WORK */
+
+.work-container {
+    position: relative;
+    background-color: var(--primary-violet);
+    height: 13em;
+    margin: 5em;
+
+}
+
+.work-container h1 {
+    float: left;
+    color: white;
+    font-size: 3rem;
+    max-width: 50%;
+    margin: 1em;
+}
+
+.work-container img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 13em;
+}
+
+.work-container button {
+    position: absolute;
+    top: 45%;
+    right: 5%;
+
 }
