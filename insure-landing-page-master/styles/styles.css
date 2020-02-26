@@ -68,7 +68,7 @@ body {
     
 }
 
-body, .btn, p {
+body, button, p {
     font-size: 16px;
     font-family: 'Karla', sans-serif;
     font-weight: 200;
@@ -90,9 +90,8 @@ hr {
 
 button {
         color:white;
-        padding: 1em 3em;
         border: white;
-        border: 2px solid white;
+        border: 1px solid white;
         background-color: var(--primary-violet);
     
 }
@@ -183,12 +182,10 @@ button {
 
 .header button {
     position: absolute;
-    top: 40em;
-    color:white;
-    padding: 1em 3em;
-    border: white;
-    border: 2px solid white;
+    top: 28em;
+    padding: 0.7em 2em;
     background-color: var(--primary-violet);
+    
 
 }
 
@@ -280,7 +277,75 @@ button {
 
 .work-container button {
     position: absolute;
-    top: 45%;
-    right: 5%;
+    top: 40%;
+    right: 6%;
+    padding: 0.75em 2em;
 
+}
+
+
+/* FOOTER */
+
+footer {
+    position: relative;
+    background-color: var(--neutral-light-gray);
+    height: 25em;
+}
+
+.footer-pattern {
+    position: absolute;
+    width: 35%;
+    margin-bottom: 5em;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    top: 3em;
+    left: 10em;
+
+}
+
+.social {
+    position: absolute;
+    top: 3em;
+    right: 6em;
+
+}
+.social img {
+    margin-left: 0.5em;
+}
+
+footer hr {
+    position: absolute;
+    top: 6em;
+    left: 9.7em;
+    width: 80%;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 10em;
+}
+
+.column {
+    width: 15%;
+}
+
+.column h3 {
+    margin-bottom: 2em;
+}
+
+.column p {
+    margin-bottom: 1em;
+}
+
+
+
+
+
+.attribution {
+    margin-top: 3em;
 }
