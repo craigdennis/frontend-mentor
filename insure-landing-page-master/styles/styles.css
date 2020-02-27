@@ -93,11 +93,7 @@ button {
         border: white;
         border: 1px solid white;
         background-color: var(--primary-violet);
-    
 }
-
-
-
 
 /* NAV BAR */
 
@@ -126,13 +122,28 @@ button {
 .nav .btn {
     padding: 0.5rem 1rem;
     background-color: white;
+    color: black;
     border: 1px solid black;
     margin-top: -0.5rem;
+}
+
+.nav .btn:hover {
+    background-color: var(--primary-violet);
+    color: white;
 }
 
 .logo-img {
     margin-left: 3rem;
     margin-top: 0.5rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--neutral-gray);
+}
+
+.nav a:hover {
+    color: var(--primary-violet);
 }
 
 /* HEADER */
@@ -185,9 +196,13 @@ button {
     top: 28em;
     padding: 0.7em 2em;
     background-color: var(--primary-violet);
-    
-
 }
+
+.header button:hover {
+    color: var(--primary-violet);
+    background-color: white;
+}
+
 
 .intro-img {
     float:right;
@@ -280,7 +295,13 @@ button {
     top: 40%;
     right: 6%;
     padding: 0.75em 2em;
+    z-index: 1;
 
+}
+
+.work-container button:hover {
+    color: var(--primary-violet);
+    background-color: white;
 }
 
 
@@ -316,6 +337,10 @@ footer {
     margin-left: 0.5em;
 }
 
+.social img:hover {
+    background-color: var(--primary-violet);
+}
+
 footer hr {
     position: absolute;
     top: 6em;
@@ -340,6 +365,7 @@ footer hr {
 
 .column p {
     margin-bottom: 1em;
+    color: black;
 }
 
 
