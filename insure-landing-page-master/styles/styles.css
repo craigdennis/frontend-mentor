@@ -100,10 +100,11 @@ button {
 .nav {
     position: absolute;
     z-index: 100;
-    height: 10%;
+    height: 5em;
     width: 100%;
     background-color: white;
     padding-top: 1em;
+
 }
 
 .nav ul {
@@ -337,10 +338,6 @@ footer {
     margin-left: 0.5em;
 }
 
-.social img:hover {
-    background-color: var(--primary-violet);
-}
-
 footer hr {
     position: absolute;
     top: 6em;
@@ -368,6 +365,13 @@ footer hr {
     color: black;
 }
 
+.container a {
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
 
 
 
@@ -375,3 +379,43 @@ footer hr {
 .attribution {
     margin-top: 3em;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1024px) {
+   .intro-img {
+       width: 25%;
+
+   }
+}
+
+@media (max-width: 768px) {
+    .intro-img {
+        width: 30%;
+    }
+
+    .header h1 {
+        width: 15%;
+        font-size: 3em;
+    }
+
+    .header p {
+        width: 30%;
+        top: 29em;
+        font-size: 0.75em;
+    }
+
+    footer hr {
+        width: 70%;
+    
+    }
+
+
+
+ }
+
+ @media (max-width: 615px) {
+
+
+
+ }
