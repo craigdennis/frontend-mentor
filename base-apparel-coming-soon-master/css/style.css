@@ -33,14 +33,23 @@ p {
 
 small {
   margin-left: 5rem;
-  color: #ce9797; }
+  color: #ce9797;
+  order: 4; }
 
 .logo {
-  padding: 3.5rem; }
+  padding: 3.5rem;
+  order: 2; }
+
+.hero-logo-mobile {
+  order: 3; }
+
+.hero-logo-desktop {
+  display: none; }
 
 .text-container {
   margin: 3rem 3rem 0 3rem;
-  text-align: center; }
+  text-align: center;
+  order: 4; }
 
 .email-submission {
   position: relative;
@@ -61,8 +70,19 @@ small {
   top: 0;
   right: 0;
   position: absolute; }
+  .arrow-img:hover {
+    background-color: #f8bfbf; }
 
 .error-img {
   position: absolute;
   top: 0.7rem;
   right: 6rem; }
+
+@media only screen and (min-width: 768px) {
+  body {
+    flex-direction: row; }
+  .hero-logo-mobile {
+    display: none; }
+  .hero-logo-desktop {
+    display: block;
+    order: 4; } }

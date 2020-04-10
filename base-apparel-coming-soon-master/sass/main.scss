@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600&display=swap');
 
 $color-primary: hsl(0, 36%, 70%);
+$color-secondary: hsl(0, 80%, 86%);
 
 
 
@@ -46,16 +47,28 @@ p {
 small {
   margin-left: 5rem;
   color: $color-primary;
+  order:4;
   //display: none;
 }
 
 .logo {
   padding: 3.5rem;
+  order: 2;
+  
+}
+
+.hero-logo-mobile {
+  order: 3;
+}
+
+.hero-logo-desktop {
+  display: none;
 }
 
 .text-container {
   margin: 3rem 3rem 0 3rem;
   text-align: center;
+  order:4;
 }
 
 .email-submission {
@@ -80,6 +93,10 @@ small {
   right:0;
   position: absolute;
 
+
+  &:hover {
+    background-color: $color-secondary;
+  }
 }
 
 .error-img {
@@ -87,5 +104,25 @@ small {
   top: 0.7rem;
   right: 6rem;
   //display: none;
+}
+
+//MEDIA QUERIES
+
+@media only screen and (min-width: 768px) {
+  
+  body {
+    flex-direction: row;
+  }
+  
+  .hero-logo-mobile {
+    display: none;
+  }
+
+  .hero-logo-desktop {
+    display: block;
+    order: 4;
+  }
+  
+ 
 }
 
