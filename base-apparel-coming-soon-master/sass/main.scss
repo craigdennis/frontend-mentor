@@ -58,7 +58,7 @@ small {
   margin-left: 5rem;
   color: $color-primary;
   order: 4;
-  //display: none;
+  display: none;
 }
 
 .logo {
@@ -165,7 +165,15 @@ small {
   position: absolute;
   top: 0.7rem;
   right: 6rem;
-  //display: none;
+  display: none;
+}
+
+.display-on {
+  display: block;
+}
+
+.display-off {
+  display: none;
 }
 
 

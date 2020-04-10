@@ -44,7 +44,8 @@ p {
 small {
   margin-left: 5rem;
   color: #ce9797;
-  order: 4; }
+  order: 4;
+  display: none; }
 
 .logo {
   padding: 3.5rem; }
@@ -118,4 +119,11 @@ small {
 .error-img {
   position: absolute;
   top: 0.7rem;
-  right: 6rem; }
+  right: 6rem;
+  display: none; }
+
+.display-on {
+  display: block; }
+
+.display-off {
+  display: none; }
