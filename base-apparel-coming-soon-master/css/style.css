@@ -12,6 +12,9 @@ body {
   flex-direction: column;
   font-family: 'Josefin Sans', sans-serif;
   justify-content: center; }
+  @media only screen and (min-width: 768px) {
+    body {
+      flex-direction: row; } }
 
 h1 {
   margin: 3rem 0;
@@ -21,6 +24,9 @@ h1 {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1.2rem; }
+  @media only screen and (min-width: 768px) {
+    h1 {
+      text-align: left; } }
 
 span {
   color: #ce9797;
@@ -30,6 +36,10 @@ p {
   color: #ce9797;
   font-size: 1.3rem;
   margin-bottom: 3rem; }
+  @media only screen and (min-width: 768px) {
+    p {
+      line-height: 2rem;
+      text-align: left; } }
 
 small {
   margin-left: 5rem;
@@ -37,19 +47,48 @@ small {
   order: 4; }
 
 .logo {
-  padding: 3.5rem;
-  order: 2; }
+  padding: 3.5rem; }
+  @media only screen and (min-width: 768px) {
+    .logo {
+      margin-top: 3rem; } }
 
-.hero-logo-mobile {
-  order: 3; }
+@media only screen and (min-width: 768px) {
+  .logo-mobile {
+    display: none; } }
+
+.logo-desktop {
+  order: 1;
+  display: none; }
+  @media only screen and (min-width: 768px) {
+    .logo-desktop {
+      display: block; } }
+
+@media only screen and (min-width: 768px) {
+  .hero-logo-mobile {
+    display: none; } }
 
 .hero-logo-desktop {
   display: none; }
+  @media only screen and (min-width: 768px) {
+    .hero-logo-desktop {
+      display: block;
+      order: 4;
+      width: 40%;
+      height: 100vh; } }
+
+@media only screen and (min-width: 768px) {
+  .left {
+    width: 60%;
+    padding: 0 10rem;
+    margin-left: 5rem; } }
 
 .text-container {
   margin: 3rem 3rem 0 3rem;
   text-align: center;
   order: 4; }
+  @media only screen and (min-width: 768px) {
+    .text-container {
+      width: 70%; } }
 
 .email-submission {
   position: relative;
@@ -77,12 +116,3 @@ small {
   position: absolute;
   top: 0.7rem;
   right: 6rem; }
-
-@media only screen and (min-width: 768px) {
-  body {
-    flex-direction: row; }
-  .hero-logo-mobile {
-    display: none; }
-  .hero-logo-desktop {
-    display: block;
-    order: 4; } }
