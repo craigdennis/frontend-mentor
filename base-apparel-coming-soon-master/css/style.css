@@ -31,11 +31,15 @@ p {
   font-size: 1.3rem;
   margin-bottom: 3rem; }
 
+small {
+  margin-left: 5rem;
+  color: #ce9797; }
+
 .logo {
   padding: 3.5rem; }
 
 .text-container {
-  margin: 3rem;
+  margin: 3rem 3rem 0 3rem;
   text-align: center; }
 
 .email-submission {
@@ -46,7 +50,7 @@ p {
   border-radius: 100px;
   width: 100%;
   padding: 1rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   height: 4rem;
   border: 1px solid #ce9797; }
 
@@ -57,3 +61,8 @@ p {
   top: 0;
   right: 0;
   position: absolute; }
+
+.error-img {
+  position: absolute;
+  top: 0.7rem;
+  right: 6rem; }
