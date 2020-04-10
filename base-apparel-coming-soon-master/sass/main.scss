@@ -106,11 +106,15 @@ small {
 }
 
 .left {
+ 
 
   @media only screen and (min-width: 768px) {
     width: 60%;
     padding: 0 10rem;
-    margin-left: 5rem;
+    padding-left: 10rem;
+    background-image: url("/images/bg-pattern-desktop.svg");
+    background-position: center center;
+    background-size: cover;
  
   }
 }
